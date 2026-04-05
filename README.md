@@ -1,1 +1,2 @@
 # Kassaba---IoT-Mandioca
+Projeto que utiliza sensores baseados em Internet das Coisas (IoT) para monitorar em tempo real a umidade do solo, a temperatura e as condições climáticas em áreas de cultivo de mandioca. As informações coletadas são transmitidas para um sistema central, auxiliando agricultores na tomada de decisões mais eficientes sobre irrigação, adubação e manejo, promovendo maior produtividade e sustentabilidade no campo.
