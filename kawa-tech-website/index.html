@@ -17,12 +17,12 @@
         <nav>
           <ul>
             <li><a href="#">Início</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Soluções</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#quem-somos">Sobre</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+            <li><a href="#projeto">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
             <li>
-              <a href="#"
+              <a href="#contato"
                 ><button type="button" id="nav-button">
                   Fale com a equipe
                 </button></a
@@ -46,12 +46,20 @@
 
           <section class="first-section-btns">
             <a href="#"
-              ><button type="button" id="first-section-btn-primary">
+              ><button
+                type="button"
+                class="kawa-button"
+                id="first-section-btn-primary"
+              >
                 Conhecer a Kawa Tech
               </button></a
             >
             <a href="#"
-              ><button type="button" id="first-section-btn-secondary">
+              ><button
+                type="button"
+                class="kawa-button"
+                id="first-section-btn-secondary"
+              >
                 Ver projetos
               </button></a
             >
@@ -85,12 +93,12 @@
     </header>
     <main>
       <div>
-        <div class="second-container">
+        <div class="second-container" id="quem-somos">
           <section class="second-section-main-content-texts">
             <strong class="strong-paragraph">QUEM SOMOS</strong>
-            <h1 class="second-section-title">A tecnologia como</h1>
-            <h1 class="second-section-title">ferramenta para resolver</h1>
-            <h1 class="second-section-title">problemas reais</h1>
+            <h1 class="titles">A tecnologia como</h1>
+            <h1 class="titles">ferramenta para resolver</h1>
+            <h1 class="titles">problemas reais</h1>
             <p class="second-section-p">
               A Kawa Tech é uma equipe voltada ao desenvolvimento de soluções
               tecnológicas com identidade própria, pensamento estratégico e
@@ -151,11 +159,11 @@
           </div>
         </div>
 
-        <section class="third-container">
+        <section class="third-container" id="solucoes">
           <strong class="strong-paragraph">O QUE FAZEMOS</strong>
-          <h1 class="second-section-title">Soluções pensadas para</h1>
-          <h1 class="second-section-title">clareza, eficiência e</h1>
-          <h1 class="second-section-title">inovação</h1>
+          <h1 class="titles">Soluções pensadas para</h1>
+          <h1 class="titles">clareza, eficiência e</h1>
+          <h1 class="titles">inovação</h1>
 
           <div class="third-section-cards">
             <section class="third-section-card">
@@ -209,8 +217,8 @@
         </section>
       </div>
 
-      <div class="fourth-container">
-        <div id="fourth-container-content">
+      <div class="kassaba-container" id="projeto">
+        <div id="kassaba-container-content">
           <div id="kassaba-project-shadow"></div>
           <div class="kassaba-project">
             <div class="kassaba-project-header">
@@ -224,20 +232,29 @@
               <section class="kassaba-card humidity">
                 <h4 id="h4-humidity">Umidade do solo</h4>
                 <h4 id="percent-humidity">72<strong>%</strong></h4>
-                <img src="/kawa-tech-website/assets/img/progress-bar.svg" alt="Barra de Progresso">
+                <img
+                  src="/kawa-tech-website/assets/img/progress-bar.svg"
+                  alt="Barra de Progresso"
+                />
                 <p>Nível ideal</p>
               </section>
 
               <section class="kassaba-card temperature">
                 <h4>Temperatura</h4>
                 <h4>29°C</h4>
-                <img src="/kawa-tech-website/assets/img/termometer.svg" alt="ícone de termômetro">
+                <img
+                  src="/kawa-tech-website/assets/img/termometer.svg"
+                  alt="ícone de termômetro"
+                />
                 <p>Estável</p>
               </section>
 
               <section class="kassaba-card weather">
                 <h4>Clima</h4>
-                <img src="/kawa-tech-website/assets/img/weather.svg" alt="ícone de clima">
+                <img
+                  src="/kawa-tech-website/assets/img/weather.svg"
+                  alt="ícone de clima"
+                />
                 <p>Condições favoráveis</p>
               </section>
 
@@ -256,19 +273,152 @@
               <h1>em impacto pŕatico no</h1>
               <h1 id="camp">campo</h1>
             </div>
-            
-            <p>O Kassaba é um projeto desenvolvido pela Kawa Tech 
-              com foco em IoT para o monitoramento do cultivo da
-              mandioca. A solução utiliza sensores para acompanhar
-              variáveis como umidade do solo, temperatura e condições 
-              climáticas, auxiliando na tomada de decisões mais eficientes 
-              no ambiente agrícola.
+
+            <p>
+              O Kassaba é um projeto desenvolvido pela Kawa Tech com foco em IoT
+              para o monitoramento do cultivo da mandioca. A solução utiliza
+              sensores para acompanhar variáveis como umidade do solo,
+              temperatura e condições climáticas, auxiliando na tomada de
+              decisões mais eficientes no ambiente agrícola.
             </p>
 
-            <button type="button">Conhecer o Projeto</button>
+            <a
+              href="https://www.figma.com/proto/slaaDMfQBl7qhGJ2zYV2z1/Kassaba?node-id=400-61&p=f&t=QfSYwHeHX7TVPt6r-0&scaling=min-zoom&content-scaling=fixed&page-id=58%3A2"
+            ><button type="button">Conhecer o Projeto</button></a
+            >
           </section>
         </div>
       </div>
+
+      <div class="methodology-container">
+        <section class="methodology-header">
+          <strong class="strong-paragraph">METODOLOGIA</strong>
+          <h1 class="titles">Como transformamos ideias em soluções</h1>
+        </section>
+
+        <div class="methodology-cards-container">
+          <section class="methodology-card card1">
+            <img src="assets/img/1.svg" alt="numero 1" />
+            <h4>Entendimento</h4>
+            <p>Analisamos o problema, o contexto e os objetivos do projeto.</p>
+          </section>
+
+          <section class="methodology-card card2">
+            <img src="assets/img/2.svg" alt="numero 2" />
+            <h4>Planejamento</h4>
+            <p>
+              Definimos estrutura, tecnologia e direção visual para a solução.
+            </p>
+          </section>
+
+          <section class="methodology-card card3">
+            <img src="assets/img/3.svg" alt="numero 3" />
+            <h4>Desenvolvimento</h4>
+            <p>Construímos a proposta com foco em funcionalidade e clareza.</p>
+          </section>
+
+          <section class="methodology-card card4">
+            <img src="assets/img/4.svg" alt="numero 4" />
+            <h4>Evolução</h4>
+            <p>
+              Testamos, refinamos e melhoramos continuamente a cada entrega.
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="differences-container">
+        <section class="differences-header">
+          <strong class="strong-paragraph">DIFERENCIAIS</strong>
+          <h1 class="titles">Por que a Kawa Tech?</h1>
+        </section>
+      </div>
+
+      <div class="differences-card-container">
+        <section class="differences-card">
+          <img src="assets/img/diff-icon.svg" alt="icone de tendencia" />
+          <h4>Pensamento estratégico</h4>
+          <p>
+            Desenvolvemos cada solução com base em análise e planejamento,
+            garantindo que a tecnologia aplicada realmente resolva o problema
+            proposto de forma clara e eficiente.
+          </p>
+        </section>
+
+        <section class="differences-card">
+          <img src="assets/img/diff-icon.svg" alt="icone de tendencia" />
+          <h4>Execução prática</h4>
+          <p>
+            Transformamos ideias em soluções funcionais, priorizando
+            simplicidade, objetividade e aplicação real em cada projeto
+            desenvolvido.
+          </p>
+        </section>
+
+        <section class="differences-card">
+          <img src="assets/img/diff-icon.svg" alt="icone de tendencia" />
+          <h4>Inovação aplicada</h4>
+          <p>
+            Utilizamos a tecnologia de forma inteligente, focando em inovação
+            que gera impacto concreto e valor, não apenas conceitos teóricos.
+          </p>
+        </section>
+
+        <section class="differences-card">
+          <img src="assets/img/diff-icon.svg" alt="icone de tendencia" />
+          <h4>Identidade tecnológica</h4>
+          <p>
+            Nossa essência está na criação de soluções digitais modernas,
+            alinhadas com tendências tecnológicas e pensadas para diferentes
+            contextos.
+          </p>
+        </section>
+
+        <section class="differences-card">
+          <img src="assets/img/diff-icon.svg" alt="icone de tendencia" />
+          <h4>Adaptação a diferentes desafios</h4>
+          <p>
+            Cada problema exige uma abordagem única. Por isso, adaptamos nossas
+            soluções de acordo com o cenário, sempre buscando o melhor
+            resultado.
+          </p>
+        </section>
+
+        <section class="differences-card">
+          <img src="assets/img/diff-icon.svg" alt="icone de tendencia" />
+          <h4>Projetos com propósito real</h4>
+          <p>
+            Todos os projetos desenvolvidos têm como objetivo resolver
+            necessidades reais, promovendo eficiência, organização e inovação
+            prática.
+          </p>
+        </section>
+      </div>
+
+      <section class="contact-container" id="contato">
+        <strong>CONTATO</strong>
+        <h1>Vamos construir a proxima solução juntos</h1>
+        <p>
+          A Kawa Tech acredita na tecnologia como meio para criar soluções
+          relevantes, funcionais e conectadas com o mundo real.
+        </p>
+        <div class="contact-buttons">
+          <a href="#"
+            ><button type="button" class="kawa-button contact-button-one">
+              Entrar em contato
+            </button></a
+          >
+          <a href="#"
+            ><button type="button" class="kawa-button contact-button-two">
+              Ver Projetos
+            </button></a
+          >
+        </div>
+      </section>
     </main>
+    <footer>
+      <img src="assets/img/KAWATECH.svg" alt="kawa tech logo" />
+      <strong>Tecnologia, fluidez e soluções com propósito.</strong>
+    </footer>
   </body>
 </html>
